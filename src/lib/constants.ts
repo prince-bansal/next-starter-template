@@ -61,3 +61,66 @@ export const Todos = [
     timestamp: "2025-01-15T17:00:00Z",
   },
 ];
+
+export const libs = [
+  {
+    id: 1,
+    title: "zod",
+    link: "https://www.npmjs.com/package/zod",
+    features: [
+      "Zod ensures that the array contains only strings and no other types (e.g., numbers, booleans).",
+      "Zod guarantees type safety by confirming that the array is of type 'string[]' and not some other type.",
+      "Zod provides specific error messages when the validation fails.",
+      "Zod makes the validation process very straightforward without needing to manually check each item in the array.",
+    ],
+  },
+  {
+    id: 2,
+    title: "react-hook-form",
+    link: "https://www.npmjs.com/package/react-hook-form",
+    features: [
+      "React Hook Form simplifies form handling by managing form state and validation with minimal re-renders.",
+      "It provides an easy way to integrate with validation libraries (like Zod, Yup) for schema-based validation.",
+      "React Hook Form reduces boilerplate code, making form handling more efficient and less error-prone.",
+      "It provides better performance by reducing unnecessary re-renders of form components, improving speed and responsiveness.",
+      "React Hook Form makes it easier to manage complex form behaviors, such as conditional fields, dynamic form controls, and form submission handling.",
+    ],
+  },
+  {
+    id: 3,
+    title: "tanstack-query",
+    link: "https://www.npmjs.com/package/@tanstack/react-query",
+    features: [
+      "TanStack Query simplifies data fetching and caching, making it easier to manage remote data in React applications.",
+      "It automatically handles background data fetching, updates, and synchronization between the client and server.",
+      "TanStack Query reduces the need for writing manual state management logic by abstracting the fetching, caching, and synchronization logic.",
+      "It provides built-in support for pagination, infinite scrolling, optimistic updates, and query retries.",
+      "TanStack Query offers powerful caching and automatic re-fetching capabilities to keep your UI in sync with the server data.",
+      "It helps improve performance by reducing unnecessary network requests and optimizing data fetching patterns.",
+    ],
+  },
+  {
+    id: 4,
+    title: "tailwind-merge",
+    link: "https://www.npmjs.com/package/tailwind-merge",
+    features: [
+      "Tailwind-merge helps to safely merge Tailwind CSS class names, resolving conflicts between classes.",
+      "It removes duplicate classes (e.g., 'bg-blue-500 bg-blue-500'), ensuring a clean and optimized class list.",
+      "Tailwind-merge allows you to combine conditional classes without worrying about overriding styles or conflicts.",
+      "It supports both static and dynamic class merging, making it easier to handle complex class management in React or other frameworks.",
+      "Tailwind-merge works seamlessly with tools like Next.js, React, and other CSS-in-JS solutions, improving the development experience.",
+    ],
+  },
+  {
+    id: 5,
+    title: "clsx",
+    link: "https://www.npmjs.com/package/clsx",
+    features: [
+      "clsx is a tiny utility for conditionally joining class names in JavaScript or React applications.",
+      "It helps you easily toggle or combine multiple class names based on conditions, such as props or states.",
+      "clsx is extremely lightweight, making it perfect for performance-sensitive applications.",
+      "It reduces the need for verbose logic like ternary operators or template literals for className management.",
+      "clsx works seamlessly with Tailwind CSS or any other class-based styling approach in React and other frameworks.",
+    ],
+  },
+];

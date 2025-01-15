@@ -1,6 +1,7 @@
 {
   "name": "next-starter-template",
   "version": "0.1.0",
+  "author": "prince-bansal",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
