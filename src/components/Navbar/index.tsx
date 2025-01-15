@@ -2,10 +2,13 @@ import Link from "next/link";
 
 const Navbar = () => {
   const navigation = [
-    { name: "Home", href: "/", current: true },
-    { name: "Add", href: "/add", current: false },
-    { name: "View", href: "view", current: false },
-    { name: "Calendar", href: "#", current: false },
+    { name: "Home", href: "/" },
+    { name: "Add", href: "/add" },
+    { name: "View", href: "view" },
+    {
+      name: "Github",
+      href: "https://github.com/prince-bansal/next-starter-template",
+    },
   ];
 
   return (
@@ -16,6 +19,11 @@ const Navbar = () => {
           {navigation.map((item) => (
             <div key={item.name}>
               <Link
+                target={
+                  item.href.startsWith("https") || item.href.startsWith("www")
+                    ? "_blank"
+                    : ""
+                }
                 href={item.href}
                 className="text-sm cursor-pointer hover:text-black text-gray-700"
               >
