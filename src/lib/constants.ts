@@ -101,6 +101,18 @@ export const libs = [
   },
   {
     id: 4,
+    title: "zod resolver",
+    link: "https://www.npmjs.com/package/@hookform/resolvers",
+    features: [
+      "Zod resolver allows you to use Zod schemas for validation in React Hook Form, enabling simple and declarative form validation.",
+      "It automatically integrates Zod validation rules into your form, making it easier to manage and maintain form logic.",
+      "Zod resolver performs synchronous or asynchronous validation directly in your form components, providing an effective way to handle validation errors.",
+      "With Zod resolver, form errors are automatically tracked and passed to React Hook Form, ensuring the UI stays in sync with validation results.",
+      "Zod provides type-safe validation, meaning your form inputs are validated and type-checked simultaneously, reducing runtime errors and improving the developer experience.",
+    ],
+  },
+  {
+    id: 5,
     title: "tailwind-merge",
     link: "https://www.npmjs.com/package/tailwind-merge",
     features: [
@@ -112,7 +124,7 @@ export const libs = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "clsx",
     link: "https://www.npmjs.com/package/clsx",
     features: [
